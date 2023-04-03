@@ -1,0 +1,7 @@
+<p>create-onomatopia works!</p>
+<Form>
+  <label>Quel est ton onomotapé</label>
+  <input type="text" [(ngModel)]="newOnomatopia">
+  <p>confirmamtion : {{newOnomatopia}}</p>
+  <button type="button" (click)="createOnomatopia()">Envoie le son</button>
+</Form>
